@@ -8,46 +8,46 @@
 </head>
 <body>
     <header>
-        <h1 class="text-center">CALOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+        <h1 class="text-center color-w">CALOLA IL PREZZO DEL TUO BIGLIETTO</h1>
     </header>
     <main>
-        <form action = "" class="container">
-            <div class="d-flex form-top">
+        <form action = "" class="container border-rd">
+            <div class="d-flex form-top ">
                 <div class="col">
-                    <label for="full-name">Nome Cognome</label>
-                    <input type="text" id="full-name" name="full-name" value="Marco Rossi">
+                    <label for="full-name" class="color-r">Nome Cognome</label>
+                    <input class="border-red text-center" type="text"  id="full-name" name="full-name" value="Marco Rossi">
                 </div>
                 <div class="col"> 
-                    <label for="user-km">Km da percorrere</label>
-                    <input type="number" id="user-km" name="user-km" value="0">
+                    <label for="user-km" class="color-r">Km da percorrere</label>
+                    <input class="border-red text-center" type="number" id="user-km" name="user-km" value="0">
                 
                 </div>
                 <div class=" col">
-                    <label for="user-age">Fascia d'età</label>
-                    <select name="user-age" id="user-age">
+                    <label for="user-age" class="color-r">Fascia d'età</label>
+                    <select class="border-red"name="user-age" id="user-age">
                         <option value="Minorenne">Minorenne</option>
                         <option value="Maggiorenne">Maggiorenne</option>
                         <option value="Over-65">Over 65</option>
                     </select>
                 </div>
             </div>
-            <div class="section-btn text-center">
-                <button type="submit">Genera</button>
-                <button type="reset">Annulla</button>
+            <div class="section-btn ">
+                <button class="btn" type="submit">Genera</button>
+                <button class="btn"  type="reset">Annulla</button>
             </div>
         </form>
-        <section>
-            <h2 class="text-center">IL TUO BIGLIETTO</h2>
+        <section id="train-ticket" class="d-none">
+            <h2 class="text-center color-w">IL TUO BIGLIETTO</h2>
             <div class="container ticket-contain">
             <h4 >DETTAGLIO PASSEGGERO</h4>
-             <div class="ticket d-flex">
-                <div class="col-name ">
+             <div class="ticket d-flex border-tp-bt">
+                <div class="col-name  ">
                     <h4>NOME PASSEGGERO</h4>
                     <p id="passenger-name">
                         Marco rossi
                     </p>
                 </div>
-                <div class="col-price  col">
+                <div class="col-price col ">
                     <h5>Offerta</h5>
                     <p id="ticket-type">Tipologia ticket</p>
                 </div>

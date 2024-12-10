@@ -13,12 +13,24 @@
 .text-center{
    text-align: center;
 }
+
+.color-w{
+   color: white;
+}
+
+.color-r{
+   color: #ba1451ff  ;
+}
+
+h1{
+   margin-top: 16px;
+}
 /*----------------
    COMMONS
 -----------------*/
 .container{
    max-width: 1000px;
-   margin: auto;
+   margin: 30px auto;
 }
 
 .d-none{
@@ -38,26 +50,83 @@ body{
    flex-direction: column;
    justify-content: space-around;
 }
+
+.border-rd{
+   border-radius: 10px;
+}
+
+.border-red{
+   border: 1px solid #ba1451ff ;
+   border-radius: 5px;
+   height: 30px;
+}
+
+.btn{
+   color: #ba1451ff;
+   background-color:#ccccccff ;
+   padding: 4px 6px;
+   text-decoration: none;
+   border: transparent;
+   cursor: pointer;
+}
+
+.btn:hover{
+   border: 2px solid #f2a15aff;
+   border-radius: 2px;
+}
+
+.border-tp-bt{
+   border-top: 2px solid #808080ff;
+   border-bottom: 2px solid #808080ff;
+}
+
+
+
+
 /*----------------
    HEADER
 -----------------*/
 /*----------------
    MAIN
 -----------------*/
+
+form.container{
+   background-color: white;
+   
+}
 .form-top{
    justify-content: space-around;
-   background-color: white;
    min-height: 90px;
 }
 
 .section-btn{
-   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   gap: 10px;
+    padding-bottom: 10px;
+   min-height: 50px;
 }
 /*---TICKET----*/
+.ticket-contain > h4{
+   margin-top: 10px;
+}
 .ticket-contain{
    background-color: white;
+   padding: 16px 20px 16px 20px;
+  
   }
 .ticket{
-   justify-content: space-around;
-   min-height: 90px;
+   justify-content: space-between;
+   min-height: 120px;
+   
+}
+
+.col-name{
+   background-color:#808080ff ;
+   padding: 20px 20px;
+}
+
+#passenger-name{
+   font-weight: bolder;
 }

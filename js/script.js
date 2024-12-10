@@ -29,6 +29,7 @@ const fullNamefieldElm = document.getElementById("full-name");
 const userKmfieldElm = document.getElementById("user-km");
 const userAgefieldElm = document.getElementById("user-age");
 //card
+const ticketTrainElem = document.getElementById("train-ticket")
 const passengerNameCardElm = document.getElementById("passenger-name");
 const ticketTypeCardElm = document.getElementById("ticket-type");
 const carriageNumbCardElm = document.getElementById("carriage-numb");
@@ -59,6 +60,8 @@ formElm.addEventListener ("submit", function(event){
     }
 
     priceCardElm.innerHTML = ` €${priceTotal.toFixed(2)}`;
+    
+    ticketTrainElem.classList.remove("d-none")
 
     
 
