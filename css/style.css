@@ -10,12 +10,54 @@
 /*----------------
    TYPOGRAPHY
 -----------------*/
+.text-center{
+   text-align: center;
+}
 /*----------------
    COMMONS
 -----------------*/
+.container{
+   max-width: 1000px;
+   margin: auto;
+}
+
+.d-none{
+   display: none;
+}
+
+.d-flex{
+   display: flex;
+}
+
+body{
+   background-color:#ba1451ff ;
+}
+
+.col{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
 /*----------------
    HEADER
 -----------------*/
 /*----------------
    MAIN
 -----------------*/
+.form-top{
+   justify-content: space-around;
+   background-color: white;
+   min-height: 90px;
+}
+
+.section-btn{
+   background-color: white;
+}
+/*---TICKET----*/
+.ticket-contain{
+   background-color: white;
+  }
+.ticket{
+   justify-content: space-around;
+   min-height: 90px;
+}

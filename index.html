@@ -7,6 +7,68 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <header>
+        <h1 class="text-center">CALOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+    </header>
+    <main>
+        <form action = "" class="container">
+            <div class="d-flex form-top">
+                <div class="col">
+                    <label for="full-name">Nome Cognome</label>
+                    <input type="text" id="full-name" name="full-name">
+                </div>
+                <div class="col"> 
+                    <label for="user-km">Km da percorrere</label>
+                    <input type="number" id="user-km" name="user-km">
+                
+                </div>
+                <div class=" col">
+                    <label for="user-age">Fascia d'età</label>
+                    <select name="user-age" id="user-age">
+                        <option value="Minorenne">Minorenne</option>
+                        <option value="Maggiorenne">Maggiorenne</option>
+                        <option value="over-65">Over 65</option>
+                    </select>
+                </div>
+            </div>
+            <div class="section-btn text-center">
+                <button type="submit">Genera</button>
+                <button type="reset">Annulla</button>
+            </div>
+        </form>
+        <section>
+            <h2 class="text-center">IL TUO BIGLIETTO</h2>
+            <div class="container ticket-contain">
+            <h4 >DETTAGLIO PASSEGGERO</h4>
+             <div class="ticket d-flex">
+                <div class="col-name ">
+                    <h4>NOME PASSEGGERO</h4>
+                    <p id="passenger_name">
+                        Marco rossi
+                    </p>
+                </div>
+                <div class="col-price  col">
+                    <h5>Offerta</h5>
+                    <p id="ticket-type">Tipologia ticket</p>
+                </div>
+                <div class="col-carriage col">
+                    <h5>Carrozza</h5>
+                    <p id="carriage-numb">0</p>
+                </div>
+                <div class="col-cod col">
+                    <h5>Codice CP</h5>
+                    <p id="code">90000</p>
+                </div>
+                <div class="col-final-price col">
+                    <h5>Costo biglietto</h5>
+                    <p id="price">0.00€</p>
+                </div>
+                
+
+             </div>
+            </div>
+        </section>
+    </main>
     <script src="./js/script.js"></script>
 </body>
 </html>
